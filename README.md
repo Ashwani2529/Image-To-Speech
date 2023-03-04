@@ -12,7 +12,7 @@ $ git clone https://github.com/Ashwani2529/Image-To-Speech.git
 
 2. Installing the dependencies
 
-First goto the (https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.0.20221222.exe) engine, read the steps and install it on your system. After installing it, follow the steps mentioned below.
+First goto the (https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.0.20221222.exe) engine, and then extract the .exe file in folder named "terr" read the steps and install it on your system. After installing it, follow the steps mentioned below.
 
 ```
 $ pip install numpy
