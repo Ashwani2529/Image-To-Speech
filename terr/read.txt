@@ -1,0 +1,1 @@
+extract tesseract.exe in 'terr' folder
