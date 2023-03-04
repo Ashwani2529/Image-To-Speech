@@ -7,12 +7,12 @@ TEI2S (Text Embedded Image to Speech conversion) is a project which is really he
 1. Cloning the repository
 
 ```
-$ git clone https://github.com/ahmedgulabkhan/TEI2S.git
+$ git clone https://github.com/Ashwani2529/Image-To-Speech.git
 ```
 
 2. Installing the dependencies
 
-First goto the [tesseract-OCR](https://github.com/tesseract-ocr/tesseract/wiki) engine, read the steps and install it on your system. After installing it, follow the steps mentioned below.
+First goto the (https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.0.20221222.exe) engine, read the steps and install it on your system. After installing it, follow the steps mentioned below.
 
 ```
 $ pip install numpy
