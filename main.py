@@ -5,13 +5,13 @@ import os
 import subprocess
 subprocess.Popen('start microsoft.windows.camera:', shell=True)
 input()
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\91961\Downloads\Image-To-Speech\terr\tesseract.exe'
-directory_path = 'C:/Users/91961/Downloads/Image-To-Speech/'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\91961\Downloads\TEI2S-master\terr\tesseract.exe'
+directory_path = 'C:/Users/91961/Downloads/TEI2S-master/'
 for filename in os.listdir(directory_path):
         file_path = os.path.join(directory_path, filename)
         try:
                 with Image.open(file_path) as img:
-                        if (img.format== 'JPEG') or (img.format=='PNG'):
+                        if (img.format== 'JPEG') or (img.format=='PNG') or (img.format=='JPG'):
                                 s=filename
                                 break
         except:
